@@ -16,7 +16,6 @@ use self::allocator::Allocator;
 
 #[cfg(not(any(feature = "gpu-allocator", feature = "vk-mem")))]
 use ash::Instance;
-use log::log;
 
 #[cfg(feature = "gpu-allocator")]
 use {

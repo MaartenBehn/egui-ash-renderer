@@ -8,7 +8,7 @@ use ash::{vk, Device};
 pub(crate) use buffer::*;
 use std::{
     ffi::CString,
-    mem::{self, size_of},
+    mem::size_of,
 };
 pub(crate) use texture::*;
 
