@@ -16,7 +16,8 @@ include = ["/src", "LICENSE", "README.md", "CHANGELOG.md"]
 thiserror = "^1.0"
 log = "0.4"
 
-egui = { version = ">=0.26, <=0.31", default-features = false }
+# egui = { version = ">=0.26, <=0.31", default-features = false }
+egui = { version = "0.30", default-features = false }
 ash = { version = "0.38", default-features = false, features = ["std"] }
 
 gpu-allocator = { version = "0.27", default-features = false, features = ["vulkan"], optional = true }
